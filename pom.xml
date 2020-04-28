@@ -15,6 +15,7 @@
 
     <modules>
         <module>szu-hdfs</module>
+        <module>szu-hive</module>
     </modules>
 
     <dependencyManagement>
