@@ -28,6 +28,7 @@ public class HiveTest {
         if (res.next()) {
             System.out.println(res.getString(1) + "," + res.getInt(2));
         }
-
+        stmt.close();
+        con.close();
     }
 }
