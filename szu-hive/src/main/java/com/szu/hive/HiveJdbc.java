@@ -21,7 +21,7 @@ public class HiveJdbc {
 		String url = "jdbc:hive://192.168.133.139:10000/default";
 		
 		//定义驱动名称
-		String driverName = "org.apache.hadoop.hive.jdbc.HiveDriver";
+		String driverName = "org.apache.hive.jdbc.HiveDriver";
 
 		//定义数据库连接对象Connection
 		Connection con = null;
